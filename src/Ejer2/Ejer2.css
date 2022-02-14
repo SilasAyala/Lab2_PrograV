@@ -1,0 +1,37 @@
+.main-nav {
+    display: flex;
+    justify-content: center;   
+    flex-wrap: wrap;
+}
+
+.div-button button {
+    font-size: 35px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 1rem;
+    width: 50px;
+    min-width: 17.5rem;
+    border-radius: 10px;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.26);  
+    border-width: 1px;
+    border-color: #12142D;
+}
+
+.main-nav h1 {
+    display: flex;
+    justify-content: center;
+    float: left;
+}
+
+.div-button:hover button {
+    background-color: #FF0026;
+    color: white;
+}
+
+.div-button {
+    width: fit-content;
+    position: fixed;
+    top: 30%;
+    float: left;
+}
